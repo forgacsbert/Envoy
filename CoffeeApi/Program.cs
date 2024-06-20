@@ -2,8 +2,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
-
 var coffeeVarieties = new[]
 {
     "Long", "Short", "Latte", "Cappuccino", "Espresso", "Americano", "Macchiato", "Mocha", "Flat White", "Affogato"
